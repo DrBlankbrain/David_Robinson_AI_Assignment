@@ -1,0 +1,58 @@
+﻿Build started 15/01/2018 12:44:34.
+     1>Project "\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\6\b5019626\MyWork\Third Year\Tools, Libraries and Frameworks\Assignment 2\Buckland_Chapter4-SimpleSoccer\SimpleSoccer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt main.cpp ParamLoader.cpp SoccerPitch.cpp SoccerTeam.cpp SteeringBehaviors.cpp SupportSpotCalculator.cpp FieldPlayerStates.cpp GoalKeeperStates.cpp TeamStates.cpp ..\Common\Messaging\MessageDispatcher.cpp SoccerMessages.cpp ..\Common\Game\BaseGameEntity.cpp ..\Common\Game\EntityManager.cpp FieldPlayer.cpp Goalkeeper.cpp PlayerBase.cpp SoccerBall.cpp ..\Common\misc\Cgdi.cpp ..\Common\Debug\DebugConsole.cpp ..\Common\misc\FrameCounter.cpp ..\Common\misc\iniFileLoaderBase.cpp ..\Common\Time\PrecisionTimer.cpp ..\Common\2D\Vector2d.cpp ..\Common\misc\WindowUtils.cpp
+         WindowUtils.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\misc\windowutils.cpp(1): fatal error C1083: Cannot open include file: 'misc/WindowUtils.h': No such file or directory
+         Vector2d.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\2d\vector2d.h(16): fatal error C1083: Cannot open include file: 'misc/utils.h': No such file or directory
+         PrecisionTimer.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\time\precisiontimer.cpp(1): fatal error C1083: Cannot open include file: 'Time/PrecisionTimer.h': No such file or directory
+         iniFileLoaderBase.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\misc\inifileloaderbase.cpp(1): fatal error C1083: Cannot open include file: 'misc/iniFileLoaderBase.h': No such file or directory
+         FrameCounter.cpp
+         DebugConsole.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\debug\debugconsole.cpp(1): fatal error C1083: Cannot open include file: 'Debug/DebugConsole.h': No such file or directory
+         Cgdi.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\misc\cgdi.cpp(1): fatal error C1083: Cannot open include file: 'misc/Cgdi.h': No such file or directory
+         SoccerBall.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\soccerball.h(17): fatal error C1083: Cannot open include file: 'Game/MovingEntity.h': No such file or directory
+         PlayerBase.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\playerbase.h(20): fatal error C1083: Cannot open include file: 'misc/autolist.h': No such file or directory
+         Goalkeeper.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\goalkeeper.h(12): fatal error C1083: Cannot open include file: '2D/Vector2D.h': No such file or directory
+         FieldPlayer.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\fieldplayerstates.h(16): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         EntityManager.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\game\entitymanager.cpp(1): fatal error C1083: Cannot open include file: 'game/EntityManager.h': No such file or directory
+         BaseGameEntity.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\game\basegameentity.h(17): fatal error C1083: Cannot open include file: '2D/Vector2D.h': No such file or directory
+         SoccerMessages.cpp
+         MessageDispatcher.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\common\messaging\messagedispatcher.h(18): fatal error C1083: Cannot open include file: 'Messaging/Telegram.h': No such file or directory
+         TeamStates.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\teamstates.h(14): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         GoalKeeperStates.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\goalkeeperstates.h(14): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         FieldPlayerStates.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\fieldplayerstates.h(16): fatal error C1083: Cannot open include file: 'FSM/State.h': No such file or directory
+         SupportSpotCalculator.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\supportspotcalculator.h(17): fatal error C1083: Cannot open include file: 'Game/Region.h': No such file or directory
+         SteeringBehaviors.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\steeringbehaviors.h(18): fatal error C1083: Cannot open include file: '2D/Vector2D.h': No such file or directory
+         Generating Code...
+         Compiling...
+         SoccerTeam.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\soccerteam.h(20): fatal error C1083: Cannot open include file: 'Game/Region.h': No such file or directory
+         SoccerPitch.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\soccerpitch.h(20): fatal error C1083: Cannot open include file: '2D/Wall2D.h': No such file or directory
+         ParamLoader.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\paramloader.h(20): fatal error C1083: Cannot open include file: 'misc/iniFileLoaderBase.h': No such file or directory
+         main.cpp
+     1>\\studenthome.hallam.shu.ac.uk\studenthome6\6\b5019626\mywork\third year\tools, libraries and frameworks\assignment 2\buckland_chapter4-simplesoccer\main.cpp(6): fatal error C1083: Cannot open include file: 'misc/utils.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "\\studenthome.hallam.shu.ac.uk\STUDENTHOME6\6\b5019626\MyWork\Third Year\Tools, Libraries and Frameworks\Assignment 2\Buckland_Chapter4-SimpleSoccer\SimpleSoccer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.77
