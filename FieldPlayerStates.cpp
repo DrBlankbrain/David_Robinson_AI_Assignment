@@ -275,13 +275,18 @@ void SupportAttacker::Execute(FieldPlayer* player)
     player->Team()->RequestPass(player);
   }
   
-  //if player is past last defender will stop and go back
-
-
- /* if (player->Pos().x >= player->Team()->isOpponentWithinRadius()  ) 
+  //if player is past last defender will stop and go back not sure which team 
+  //offside mechanic
+  int lastmanx = 1111;
+  for (int s = 0; s < 5 ;s++)
   {
-	  player->SetVelocity(Vector2D(-0.1f, 0));
-  }*/
+	  if (player->Team()->Opponents()->GetPlayerFromID(s)->Pos().x < lastmanx)
+		  lastmanx = player->Pos().x;
+  }
+  if (player->Pos().x >= lastmanx) 
+  {  
+	  player->SetVelocity(Vector2D(-0.01f, 0));
+  }
 
 
 
